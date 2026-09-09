@@ -1,0 +1,1243 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ashish Rout | AI/ML Engineer & Full-Stack Developer</title>
+  <meta name="description" content="Portfolio of Ashish Rout - AI & ML Engineer, Full-Stack Web Developer, and Relational Database Analyst based in Bangalore, Karnataka.">
+  <meta name="keywords" content="Ashish Rout, AI Engineer, Machine Learning, Full Stack Developer, Python, JavaScript, SQL, Portfolio">
+  <meta name="author" content="Ashish Rout">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Ashish Rout | AI/ML & Full-Stack Developer">
+  <meta property="og:description" content="Specialized in building sophisticated AI models, full-stack web applications, and relational database systems.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts Preconnect & Load -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Custom Glowing Cyber Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%2300f2fe'/%3E%3Cstop offset='100%25' stop-color='%238b5cf6'/%3E%3C/linearGradient%3E%3Cfilter id='glow'%3E%3CfeGaussianBlur stdDeviation='3' result='coloredBlur'/%3E%3CfeMerge%3E%3CfeMergeNode in='coloredBlur'/%3E%3CfeMergeNode in='SourceGraphic'/%3E%3C/feMerge%3E%3C/filter%3E%3C/defs%3E%3Crect width='100' height='100' rx='25' fill='%23080b11' stroke='url(%23g)' stroke-width='5'/%3E%3Ctext x='50%25' y='64%25' font-family='Times New Roman, serif' font-weight='bold' font-size='44' fill='url(%23g)' text-anchor='middle' filter='url(%23glow)'%3EAR%3C/text%3E%3C/svg%3E">
+
+  <!-- Unified Core Stylesheet (Self-Contained) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Ambient Animated Mesh Gradient -->
+  <div class="ambient-mesh" aria-hidden="true">
+    <div class="ambient-orb ambient-orb-1"></div>
+    <div class="ambient-orb ambient-orb-2"></div>
+    <div class="ambient-orb ambient-orb-3"></div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container" class="toast-container" aria-live="polite"></div>
+
+  <!-- ========================================================================
+       Navigation Bar
+       ======================================================================== -->
+  <header id="main-navbar" class="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-logo" aria-label="Ashish Rout Home">
+        <div class="logo-symbol">AR</div>
+        <span>Ashish<span class="gradient-text">.dev</span></span>
+      </a>
+
+      <nav>
+        <ul id="nav-menu-list" class="nav-menu">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#playground" class="nav-link">Playground <span class="badge badge-cyan" style="font-size: 0.65rem; padding: 0.1rem 0.4rem;">LIVE</span></a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li class="nav-drawer-footer">
+            <a href="https://github.com/ashishrout457" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" style="flex: 1; text-align: center; justify-content: center; gap: 0.4rem;">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              <span>GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/ashish-rout-31b6b3298" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" style="flex: 1; text-align: center; justify-content: center; gap: 0.4rem;">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              <span>LinkedIn</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Terminal Shortcut Trigger with Glowing Icon -->
+        <button class="nav-terminal-btn trigger-terminal" title="Open Interactive CLI Terminal (Ctrl+K)" id="nav-terminal-btn">
+          <span class="terminal-mini-glyph">&gt;_</span>
+          <span class="nav-term-text">CLI</span>
+          <span class="kbd-badge">^K</span>
+        </button>
+
+        <!-- Social Icons in Navbar -->
+        <a href="https://github.com/ashishrout457" target="_blank" rel="noopener noreferrer" class="btn-icon" title="GitHub Profile (ashishrout457)" aria-label="GitHub">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+        </a>
+
+        <a href="https://www.linkedin.com/in/ashish-rout-31b6b3298" target="_blank" rel="noopener noreferrer" class="btn-icon" title="LinkedIn Profile" aria-label="LinkedIn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+        </a>
+
+        <!-- Theme Toggle Button -->
+        <button class="btn-icon theme-toggle-btn" aria-label="Toggle Dark / Light Theme" id="theme-toggle-btn">
+          <span class="theme-icon">☀️</span>
+        </button>
+
+        <!-- Mobile Menu Toggle -->
+        <button id="mobile-menu-toggle" class="nav-mobile-toggle" aria-label="Open Mobile Menu">
+          ☰
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ======================================================================
+         Hero Section with Neural Network Canvas
+         ====================================================================== -->
+    <section id="hero" class="hero-section">
+      <canvas id="neural-canvas"></canvas>
+
+      <div class="container hero-content">
+        <div class="hero-status-pill reveal">
+          <span class="pulse-dot"></span>
+          <span>Open to AI/ML & Full-Stack Opportunities</span>
+        </div>
+
+        <h1 class="hero-name reveal">
+          Hi, I'm <span class="gradient-text">Ashish Rout</span>
+        </h1>
+
+        <div class="hero-role-wrapper reveal">
+          <span>Specialized in</span>
+          <span id="hero-typing-text" class="hero-role-typing">AI & Machine Learning Engineer</span>
+        </div>
+
+        <p class="hero-summary reveal">
+          Developer and analyst bridging Python programming, full-stack web development, and artificial intelligence. 
+          Expertise in building predictive AI models, managing relational databases with SQL, and orchestrating high-performance real-time applications.
+        </p>
+
+        <div class="hero-cta-cluster reveal">
+          <a href="#projects" class="btn btn-primary">
+            <span>Explore Flagship Projects</span>
+            <span>→</span>
+          </a>
+          <a href="#playground" class="btn btn-emerald">
+            <span>⚡ Try Interactive Simulators</span>
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            <span>Get in Touch</span>
+          </a>
+          <a href="https://github.com/ashishrout457" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" title="View GitHub Profile (ashishrout457)">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="display:inline-block; vertical-align:middle; margin-right:4px;"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            <span>GitHub</span>
+          </a>
+          <a href="https://www.linkedin.com/in/ashish-rout-31b6b3298" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" title="Connect with Ashish Rout on LinkedIn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="display:inline-block; vertical-align:middle; margin-right:4px;"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            <span>LinkedIn</span>
+          </a>
+        </div>
+
+        <!-- Quick Stats Grid -->
+        <div class="hero-stats-grid reveal" id="hero-stats-container">
+          <div class="stat-card">
+            <div class="stat-number" data-count="8.0" data-decimal="1">0.0</div>
+            <div class="stat-label">CGPA (UG CSE-AIML)</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" data-count="7">0</div>
+            <div class="stat-label">Projects & Repos</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" data-count="4" data-suffix="+">0</div>
+            <div class="stat-label">Infosys Certifications</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" data-count="2" data-suffix="+">0</div>
+            <div class="stat-label">Commercial Deployments</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">NIC '25</div>
+            <div class="stat-label">National NSS Delegate</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         About & Education Section
+         ====================================================================== -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Background & Academics</span>
+          <h2 class="section-title">Bridging AI Algorithms & Modern Systems</h2>
+          <p class="section-subtitle">Dedicated computer science undergraduate with deep focus on AI, data engineering, and high-impact web software.</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Bio Overview Card -->
+          <div class="glass-card about-bio-card reveal">
+            <h3 style="margin-bottom: 0.5rem;">Who I Am</h3>
+            <p>
+              I am an AI & Machine Learning engineer and full-stack software developer based in Bangalore, Karnataka. My technical journey combines disciplined academic fundamentals with practical freelance delivery for real-world businesses.
+            </p>
+            <div class="about-highlight-box">
+              <strong>Core Engineering Philosophy:</strong><br>
+              "Build systems that are mathematically rigorous in the backend, architecturally scalable across networks, and seamlessly intuitive in the user interface."
+            </div>
+            <p>
+              Whether analyzing soil metrics for precision agriculture using predictive models, architecting live multi-tab web synchronizations with zero external dependencies, or streaming real-time sports telemetry over global virtual machines, I prioritize clean code, performance, and real user value.
+            </p>
+
+            <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; margin-top: 0.5rem;">
+              <span class="badge badge-cyan">📍 Bangalore, Karnataka</span>
+              <span class="badge badge-violet">🗣 English • Hindi • Kannada</span>
+              <span class="badge badge-emerald">💼 Open for Roles</span>
+            </div>
+          </div>
+
+          <!-- Education Timeline Card -->
+          <div class="glass-card reveal">
+            <h3 style="margin-bottom: 1.25rem;">Academic Milestones</h3>
+            
+            <div class="education-list">
+              <!-- FET -->
+              <div class="education-item">
+                <div class="edu-header">
+                  <div class="edu-degree">UG CSE-AIML</div>
+                  <span class="badge badge-cyan">2023 – Present</span>
+                </div>
+                <div class="edu-institution">FET</div>
+                <p style="font-size: 0.875rem; margin-top: 0.35rem;">Specialization in Artificial Intelligence, Machine Learning Models, and Advanced Computer Science.</p>
+                <div class="edu-meta">
+                  <span>Graduation in Progress</span>
+                  <span class="edu-grade">CGPA: 8.0</span>
+                </div>
+              </div>
+
+              <!-- Narayana E-Techno -->
+              <div class="education-item">
+                <div class="edu-header">
+                  <div class="edu-degree">Pre-University Course (PUC / 12th)</div>
+                  <span class="badge badge-violet">2022 – 2023</span>
+                </div>
+                <div class="edu-institution">Narayana E-Techno</div>
+                <div class="edu-meta">
+                  <span>Science Stream</span>
+                  <span class="edu-grade">Score: 70%</span>
+                </div>
+              </div>
+
+              <!-- Sharada Vidya Mandira -->
+              <div class="education-item">
+                <div class="edu-header">
+                  <div class="edu-degree">SSLC / 10th Grade</div>
+                  <span class="badge badge-emerald">2020 – 2021</span>
+                </div>
+                <div class="edu-institution">Sharada Vidya Mandira</div>
+                <div class="edu-meta">
+                  <span>Secondary School Certificate</span>
+                  <span class="edu-grade">Score: 90.00% (High Distinction)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         Professional Experience Section
+         ====================================================================== -->
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Track Record</span>
+          <h2 class="section-title">Professional Experience</h2>
+          <p class="section-subtitle">Real-world commercial freelance web development and client-facing digital architecture.</p>
+        </div>
+
+        <div class="experience-timeline">
+          <!-- Experience 1: Murthy Driving School -->
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="glass-card experience-card">
+              <div class="exp-header">
+                <div>
+                  <h3 class="exp-role">Freelance Web Developer</h3>
+                  <div class="exp-company">Murthy Driving School • Bangalore</div>
+                </div>
+                <div class="exp-duration">Mar 2026 – Mar 2026</div>
+              </div>
+
+              <div class="exp-points">
+                <div class="exp-point">
+                  <span class="exp-point-bullet">▹</span>
+                  <span><strong>Front-End Development:</strong> Developed a fully responsive landing page featuring an interactive light and dark theme toggle for enhanced user accessibility.</span>
+                </div>
+                <div class="exp-point">
+                  <span class="exp-point-bullet">▹</span>
+                  <span><strong>Information Architecture:</strong> Designed the service layout by structuring and categorizing driving courses into distinct tiers (Beginner, Intermediate, and Advanced) to streamline user navigation.</span>
+                </div>
+                <div class="exp-point">
+                  <span class="exp-point-bullet">▹</span>
+                  <span><strong>Third-Party Integrations:</strong> Embedded an interactive map for precise location tracking and implemented a direct WhatsApp contact integration to drive immediate customer inquiries.</span>
+                </div>
+                <div class="exp-point">
+                  <span class="exp-point-bullet">▹</span>
+                  <span><strong>UI/UX Design:</strong> Built and styled a dedicated testimonials section to showcase student reviews and establish strong business credibility.</span>
+                </div>
+              </div>
+
+              <div class="exp-tags">
+                <span class="badge badge-cyan">HTML5</span>
+                <span class="badge badge-cyan">CSS3</span>
+                <span class="badge badge-cyan">JavaScript</span>
+                <span class="badge badge-violet">Interactive Maps</span>
+                <span class="badge badge-emerald">WhatsApp API</span>
+                <span class="badge badge-amber">UI/UX Testimonials</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 2: One Promise Group -->
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="glass-card experience-card">
+              <div class="exp-header">
+                <div>
+                  <h3 class="exp-role">Freelance Web Developer</h3>
+                  <div class="exp-company">One Promise Group • Bangalore</div>
+                </div>
+                <div class="exp-duration">Jan 2026 – Feb 2026</div>
+              </div>
+
+              <div class="exp-points">
+                <div class="exp-point">
+                  <span class="exp-point-bullet">▹</span>
+                  <span><strong>Front-End Architecture:</strong> Built a fully mobile-responsive real estate website from scratch, utilizing modular HTML, CSS, and JavaScript for a clean, scalable codebase.</span>
+                </div>
+                <div class="exp-point">
+                  <span class="exp-point-bullet">▹</span>
+                  <span><strong>Dynamic UI/UX:</strong> Engineered interactive user features, including a site-wide light/dark mode toggle and custom CSS keyframe animations for high visual retention.</span>
+                </div>
+                <div class="exp-point">
+                  <span class="exp-point-bullet">▹</span>
+                  <span><strong>User Engagement:</strong> Developed and integrated lead-generation tools, such as a fixed floating communication button and a custom event-triggered launch pop-up.</span>
+                </div>
+                <div class="exp-point">
+                  <span class="exp-point-bullet">▹</span>
+                  <span><strong>Content Integration:</strong> Structured site layout and positioning for key business assets, including interactive executive profile cards and official RERA-approved branding.</span>
+                </div>
+              </div>
+
+              <div class="exp-tags">
+                <span class="badge badge-cyan">Modular HTML/CSS</span>
+                <span class="badge badge-cyan">JavaScript</span>
+                <span class="badge badge-violet">CSS Keyframes</span>
+                <span class="badge badge-emerald">Lead Gen Popups</span>
+                <span class="badge badge-amber">RERA Branding</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         Featured Projects Section
+         ====================================================================== -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Portfolio Showcase</span>
+          <h2 class="section-title">Flagship Engineering Projects</h2>
+          <p class="section-subtitle">Real-time systems, machine learning prediction models, and zero-dependency web applications.</p>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="projects-filter-bar reveal">
+          <button class="filter-btn active" data-filter="all">All Projects (7)</button>
+          <button class="filter-btn" data-filter="ai">AI & Machine Learning</button>
+          <button class="filter-btn" data-filter="realtime">Real-Time & Security</button>
+          <button class="filter-btn" data-filter="fullstack">Web APIs & Commercial</button>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Z-Core -->
+          <div class="project-card-wrapper reveal" data-category="realtime">
+            <div class="glass-card project-card">
+              <div>
+                <div class="project-badge-row">
+                  <span class="badge badge-cyan">Security & Real-Time</span>
+                  <span style="font-size: 0.8rem; color: var(--text-muted);">Aug 2026 – Present</span>
+                </div>
+                <h3 class="project-title">Z-Core | Ephemeral Relay</h3>
+                <p class="project-desc">
+                  RAM-only end-to-end encrypted private communications relay with zero-knowledge AES-256 in URL fragments, FastAPI WebSocket relays, Panic-Room nuke, and installable PWA.
+                </p>
+                <div class="project-tech-stack">
+                  <span class="badge badge-cyan">Python</span>
+                  <span class="badge badge-violet">FastAPI</span>
+                  <span class="badge badge-emerald">WebSockets</span>
+                  <span class="badge badge-amber">AES-256</span>
+                  <span class="badge">PWA</span>
+                </div>
+              </div>
+
+              <div class="project-actions">
+                <button onclick="window.openProjectModal('z-core')" class="btn btn-secondary btn-sm" style="flex: 1;">
+                  🔍 Inspect Architecture
+                </button>
+                <a href="https://github.com/ashishrout457/Z-Core" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" style="flex: 1; text-decoration: none; display: inline-flex; align-items: center; justify-content: center; gap: 0.35rem;">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: StockRadar -->
+          <div class="project-card-wrapper reveal" data-category="ai">
+            <div class="glass-card project-card">
+              <div>
+                <div class="project-badge-row">
+                  <span class="badge badge-violet">AI & Financial Systems</span>
+                  <span style="font-size: 0.8rem; color: var(--text-muted);">Aug 2026 – Present</span>
+                </div>
+                <h3 class="project-title">StockRadar | Market Engine</h3>
+                <p class="project-desc">
+                  Real-time stock market intelligence platform with automated RSS feed parsing, multi-threaded ticker telemetry aggregation, watchlist tracking, and PWA visualizers.
+                </p>
+                <div class="project-tech-stack">
+                  <span class="badge badge-cyan">Python</span>
+                  <span class="badge badge-violet">Multi-Threading</span>
+                  <span class="badge badge-emerald">Financial APIs</span>
+                  <span class="badge">PWA</span>
+                </div>
+              </div>
+
+              <div class="project-actions">
+                <button onclick="window.openProjectModal('stock-radar')" class="btn btn-secondary btn-sm" style="flex: 1;">
+                  🔍 Inspect Architecture
+                </button>
+                <a href="https://github.com/ashishrout457/StockRadar" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" style="flex: 1; text-decoration: none; display: inline-flex; align-items: center; justify-content: center; gap: 0.35rem;">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: Agro Cycle -->
+          <div class="project-card-wrapper reveal" data-category="ai">
+            <div class="glass-card project-card">
+              <div>
+                <div class="project-badge-row">
+                  <span class="badge badge-cyan">AI & Machine Learning</span>
+                  <span style="font-size: 0.8rem; color: var(--text-muted);">Jan 2024 – Present</span>
+                </div>
+                <h3 class="project-title">Agro Cycle | Crop ML</h3>
+                <p class="project-desc">
+                  Machine learning platform analyzing soil chemistry (N-P-K), weather patterns, and historical data to deliver accurate crop yield predictions and soil health insights. Exploring CNN foliage diagnostics.
+                </p>
+                <div class="project-tech-stack">
+                  <span class="badge badge-violet">Machine Learning</span>
+                  <span class="badge badge-cyan">Python</span>
+                  <span class="badge badge-emerald">CNN (Exploring)</span>
+                  <span class="badge">Predictive ML</span>
+                </div>
+              </div>
+
+              <div class="project-actions">
+                <button onclick="window.openProjectModal('agro-cycle')" class="btn btn-secondary btn-sm" style="flex: 1;">
+                  🔍 Inspect Architecture
+                </button>
+                <button onclick="window.switchToSimTab('agro')" class="btn btn-primary btn-sm" style="flex: 1;">
+                  ⚡ Live Simulator
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4: GM League S2 -->
+          <div class="project-card-wrapper reveal" data-category="realtime">
+            <div class="glass-card project-card">
+              <div>
+                <div class="project-badge-row">
+                  <span class="badge badge-emerald">Real-Time / Systems</span>
+                  <span style="font-size: 0.8rem; color: var(--text-muted);">Mar 2026 – May 2026</span>
+                </div>
+                <h3 class="project-title">GM League S2 Score App</h3>
+                <p class="project-desc">
+                  Real-time live cricket sports scoring web platform for GM League Season 2. Initially deployed on campus intranet and routed globally via virtual machines and port forwarding.
+                </p>
+                <div class="project-tech-stack">
+                  <span class="badge badge-cyan">Python</span>
+                  <span class="badge badge-emerald">Networking & VMs</span>
+                  <span class="badge badge-violet">Port Forwarding</span>
+                  <span class="badge">WebSockets</span>
+                </div>
+              </div>
+
+              <div class="project-actions">
+                <button onclick="window.openProjectModal('gm-league')" class="btn btn-secondary btn-sm" style="flex: 1;">
+                  🔍 Inspect Architecture
+                </button>
+                <button onclick="window.switchToSimTab('gm')" class="btn btn-primary btn-sm" style="flex: 1;">
+                  ⚡ Live Simulator
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 5: E-Commerce Platform -->
+          <div class="project-card-wrapper reveal" data-category="fullstack">
+            <div class="glass-card project-card">
+              <div>
+                <div class="project-badge-row">
+                  <span class="badge badge-violet">Web APIs & Systems</span>
+                  <span style="font-size: 0.8rem; color: var(--text-muted);">Jul 2026 – Aug 2026</span>
+                </div>
+                <h3 class="project-title">Zero-Dependency Storefront</h3>
+                <p class="project-desc">
+                  High-performance Vanilla JS e-commerce platform with real-time cross-tab state synchronization, live order lifecycle tracking, customer photo review attachments, and admin dashboard.
+                </p>
+                <div class="project-tech-stack">
+                  <span class="badge badge-cyan">BroadcastChannel API</span>
+                  <span class="badge badge-violet">LocalStorage API</span>
+                  <span class="badge badge-amber">FileReader API</span>
+                  <span class="badge">Vanilla JS</span>
+                </div>
+              </div>
+
+              <div class="project-actions">
+                <button onclick="window.openProjectModal('ecommerce-platform')" class="btn btn-secondary btn-sm" style="flex: 1;">
+                  🔍 Inspect Architecture
+                </button>
+                <a href="https://github.com/ashishrout457/E-Commerse-website" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" style="flex: 1; text-decoration: none; display: inline-flex; align-items: center; justify-content: center; gap: 0.35rem;">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 6: One Promise Group -->
+          <div class="project-card-wrapper reveal" data-category="fullstack">
+            <div class="glass-card project-card">
+              <div>
+                <div class="project-badge-row">
+                  <span class="badge badge-amber">Commercial Real Estate</span>
+                  <span style="font-size: 0.8rem; color: var(--text-muted);">Jan 2026 – Feb 2026</span>
+                </div>
+                <h3 class="project-title">One Promise Group</h3>
+                <p class="project-desc">
+                  Commercial real estate website with modular front-end architecture, interactive light/dark theme engine, keyframe animations, lead generation widgets, and RERA branding.
+                </p>
+                <div class="project-tech-stack">
+                  <span class="badge badge-cyan">Modular HTML/CSS</span>
+                  <span class="badge badge-violet">JavaScript</span>
+                  <span class="badge badge-emerald">Lead Gen UI</span>
+                  <span class="badge badge-amber">RERA Branding</span>
+                </div>
+              </div>
+
+              <div class="project-actions">
+                <button onclick="window.openProjectModal('onepromise-group')" class="btn btn-secondary btn-sm" style="flex: 1;">
+                  🔍 Inspect Architecture
+                </button>
+                <a href="https://github.com/ashishrout457/ONEPROMISE-GROUP" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" style="flex: 1; text-decoration: none; display: inline-flex; align-items: center; justify-content: center; gap: 0.35rem;">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 7: Murthy Driving School -->
+          <div class="project-card-wrapper reveal" data-category="fullstack">
+            <div class="glass-card project-card">
+              <div>
+                <div class="project-badge-row">
+                  <span class="badge badge-emerald">Commercial Application</span>
+                  <span style="font-size: 0.8rem; color: var(--text-muted);">Mar 2026</span>
+                </div>
+                <h3 class="project-title">Murthy Driving School</h3>
+                <p class="project-desc">
+                  Responsive commercial web platform featuring 3-tier course information architecture, dark/light accessibility theme toggle, interactive location maps, and WhatsApp inquiries.
+                </p>
+                <div class="project-tech-stack">
+                  <span class="badge badge-cyan">HTML5/CSS3</span>
+                  <span class="badge badge-violet">JavaScript</span>
+                  <span class="badge badge-emerald">Google Maps</span>
+                  <span class="badge">WhatsApp API</span>
+                </div>
+              </div>
+
+              <div class="project-actions">
+                <button onclick="window.openProjectModal('driving-school')" class="btn btn-secondary btn-sm" style="flex: 1;">
+                  🔍 Inspect Architecture
+                </button>
+                <a href="https://github.com/ashishrout457/Driving-School" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" style="flex: 1; text-decoration: none; display: inline-flex; align-items: center; justify-content: center; gap: 0.35rem;">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         Interactive Project Playground Section (WOW Feature)
+         ====================================================================== -->
+    <section id="playground" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Interactive Sandbox</span>
+          <h2 class="section-title">Interactive Project Simulators</h2>
+          <p class="section-subtitle">Test algorithms and real-time state machines directly in your browser.</p>
+        </div>
+
+        <div class="playground-container reveal">
+          <!-- Playground Tabs Navigation -->
+          <div class="playground-nav">
+            <button class="playground-tab-btn active" data-tab="agro">
+              🌱 Agro Cycle ML Predictor
+            </button>
+            <button class="playground-tab-btn" data-tab="gm">
+              🏏 GM League S2 Score Ticker
+            </button>
+            <button class="playground-tab-btn" data-tab="ecom">
+              🔄 E-Commerce Cross-Tab Sync
+            </button>
+          </div>
+
+          <!-- Pane 1: Agro Cycle -->
+          <div id="sim-pane-agro" class="playground-pane active">
+            <div class="simulator-grid">
+              <!-- Controls -->
+              <div>
+                <h3 style="margin-bottom: 0.3rem;">Soil Chemistry & Environmental Inputs</h3>
+                <p style="font-size: 0.875rem; margin-bottom: 1.5rem;">Adjust parameters to test live yield inference algorithm:</p>
+
+                <div class="control-group">
+                  <div class="control-label">
+                    <span>Nitrogen (N)</span>
+                    <span id="val-n" style="color: var(--accent-cyan); font-family: var(--font-mono);">80 mg/kg</span>
+                  </div>
+                  <input type="range" id="slider-n" class="sim-slider" min="10" max="140" value="80">
+                </div>
+
+                <div class="control-group">
+                  <div class="control-label">
+                    <span>Phosphorus (P)</span>
+                    <span id="val-p" style="color: var(--accent-cyan); font-family: var(--font-mono);">55 mg/kg</span>
+                  </div>
+                  <input type="range" id="slider-p" class="sim-slider" min="10" max="140" value="55">
+                </div>
+
+                <div class="control-group">
+                  <div class="control-label">
+                    <span>Potassium (K)</span>
+                    <span id="val-k" style="color: var(--accent-cyan); font-family: var(--font-mono);">65 mg/kg</span>
+                  </div>
+                  <input type="range" id="slider-k" class="sim-slider" min="10" max="140" value="65">
+                </div>
+
+                <div class="control-group">
+                  <div class="control-label">
+                    <span>Soil Moisture (%)</span>
+                    <span id="val-moist" style="color: var(--accent-emerald); font-family: var(--font-mono);">68%</span>
+                  </div>
+                  <input type="range" id="slider-moist" class="sim-slider" min="10" max="100" value="68">
+                </div>
+
+                <div class="control-group">
+                  <div class="control-label">
+                    <span>Ambient Temperature (°C)</span>
+                    <span id="val-temp" style="color: var(--accent-amber); font-family: var(--font-mono);">26°C</span>
+                  </div>
+                  <input type="range" id="slider-temp" class="sim-slider" min="10" max="45" value="26">
+                </div>
+              </div>
+
+              <!-- Output Card -->
+              <div class="sim-result-card">
+                <div class="health-gauge-circle">
+                  <span id="sim-health-val" class="gauge-value">92%</span>
+                  <span class="gauge-label">Soil Health</span>
+                </div>
+
+                <div style="margin-bottom: 1rem;">
+                  <span class="badge badge-cyan" style="margin-bottom: 0.5rem;">Recommended Crop</span>
+                  <h3 id="sim-crop-rec" style="color: var(--accent-cyan); font-size: 1.4rem;">Wheat / Barley</h3>
+                </div>
+
+                <div style="display: flex; justify-content: space-around; background: var(--bg-surface); padding: 0.75rem; border-radius: var(--radius-md); border: 1px solid var(--bg-glass-border); margin-bottom: 1rem;">
+                  <div>
+                    <div style="font-size: 0.75rem; color: var(--text-muted);">Est. Yield Output</div>
+                    <div id="sim-yield-val" style="font-size: 1.2rem; font-weight: 700; color: var(--accent-emerald);">5.6 T/Ha</div>
+                  </div>
+                  <div>
+                    <div style="font-size: 0.75rem; color: var(--text-muted);">Inference Latency</div>
+                    <div style="font-size: 1.2rem; font-weight: 700; color: var(--accent-cyan);">&lt; 4ms</div>
+                  </div>
+                </div>
+
+                <div style="background: rgba(0, 0, 0, 0.2); padding: 0.75rem; border-radius: var(--radius-sm); font-size: 0.85rem; color: var(--text-secondary); text-align: left;">
+                  💡 <span id="sim-advisory-note">Balanced nutrient profile. Maintain current irrigation cycle.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pane 2: GM League S2 Scoreboard -->
+          <div id="sim-pane-gm" class="playground-pane">
+            <div class="scoreboard-box">
+              <div class="match-header-row">
+                <div>
+                  <h4 style="margin: 0;">GM League Season 2 • Match #18</h4>
+                  <div style="font-size: 0.8rem; color: var(--text-muted);">FET Titans vs Bangalore Strikers • Campus Network VM Node</div>
+                </div>
+                <div id="gm-live-badge">
+                  <span class="badge badge-cyan"><span class="pulse-dot"></span> READY TO STREAM</span>
+                </div>
+              </div>
+
+              <div class="score-display-row">
+                <div>
+                  <div style="font-size: 0.85rem; color: var(--text-muted);">FET Titans (Target: 178)</div>
+                  <div id="gm-score-display" class="score-main">142/3</div>
+                  <div id="gm-overs-display" style="font-size: 1rem; color: var(--text-secondary);">14.2 Overs</div>
+                </div>
+                <div style="display: flex; flex-direction: column; justify-content: center; gap: 0.5rem; text-align: right;">
+                  <div id="gm-crr-display" class="badge badge-cyan">CRR: 9.91</div>
+                  <div id="gm-rrr-display" class="badge badge-amber">Need 36 off 34b (RRR: 6.35)</div>
+                </div>
+              </div>
+
+              <!-- Controls -->
+              <div style="display: flex; gap: 0.6rem; flex-wrap: wrap; margin-bottom: 1.25rem;">
+                <button id="gm-btn-start" class="btn btn-emerald btn-sm">▶ Start Live Stream</button>
+                <button id="gm-btn-pause" class="btn btn-secondary btn-sm">⏸ Pause</button>
+                <button id="gm-btn-boundary" class="btn btn-primary btn-sm">+4 Boundary</button>
+                <button id="gm-btn-wicket" class="btn btn-secondary btn-sm" style="border-color: var(--accent-rose); color: var(--accent-rose);">💥 Wicket</button>
+                <button id="gm-btn-reset" class="btn btn-secondary btn-sm">↺ Reset Match</button>
+              </div>
+
+              <!-- Live Commentary Stream -->
+              <div>
+                <div style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0.4rem;">Live Ball-by-Ball Telemetry Log:</div>
+                <div id="gm-commentary-feed" class="commentary-feed">
+                  <div class="commentary-item" style="color: var(--text-muted);">Match initialized. Ready to broadcast GM League S2 real-time data.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pane 3: E-Commerce Sync -->
+          <div id="sim-pane-ecom" class="playground-pane">
+            <div style="margin-bottom: 1.25rem;">
+              <h3 style="margin-bottom: 0.25rem;">Zero-Dependency Web APIs State Sync</h3>
+              <p style="font-size: 0.875rem; color: var(--text-secondary);">Simulating real-time cross-tab synchronization using browser native <code style="color: var(--accent-cyan);">BroadcastChannel</code> &amp; <code style="color: var(--accent-violet);">LocalStorage</code>:</p>
+            </div>
+
+            <div class="ecom-sync-demo">
+              <!-- Tab A: Customer Storefront -->
+              <div class="virtual-tab">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
+                  <span class="badge badge-cyan">Tab A: Customer Storefront</span>
+                  <span style="font-size: 0.75rem; color: var(--text-muted);">order-checkout.html</span>
+                </div>
+
+                <div style="background: var(--bg-tertiary); padding: 1rem; border-radius: var(--radius-sm); border: 1px solid var(--bg-glass-border); margin-bottom: 1rem;">
+                  <div style="font-weight: 600; font-size: 0.95rem;">Order #ORD-9842</div>
+                  <div style="font-size: 0.825rem; color: var(--text-secondary);">Items: 2x AI Dev Boards • Total: $184.00</div>
+                  <div id="ecom-status-text" style="font-size: 0.85rem; color: var(--accent-cyan); margin-top: 0.5rem;">
+                    <strong>Order Placed</strong>: Received on Tab A (Storefront)
+                  </div>
+                </div>
+
+                <!-- Order Lifecycle Stepper -->
+                <div class="stepper">
+                  <div class="step-node active" id="step-0">
+                    <div class="step-circle">1</div>
+                    <span>Placed</span>
+                  </div>
+                  <div class="step-node" id="step-1">
+                    <div class="step-circle">2</div>
+                    <span>Processing</span>
+                  </div>
+                  <div class="step-node" id="step-2">
+                    <div class="step-circle">3</div>
+                    <span>Shipped</span>
+                  </div>
+                  <div class="step-node" id="step-3">
+                    <div class="step-circle">4</div>
+                    <span>Delivered</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Tab B: Admin Operations & Sync Log -->
+              <div class="virtual-tab">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
+                  <span class="badge badge-violet">Tab B: Admin Ops Dashboard</span>
+                  <span style="font-size: 0.75rem; color: var(--text-muted);">admin-console.html</span>
+                </div>
+
+                <div style="display: flex; gap: 0.5rem; margin-bottom: 1rem;">
+                  <button id="ecom-btn-advance" class="btn btn-primary btn-sm">Advance Order State →</button>
+                  <button id="ecom-btn-reset" class="btn btn-secondary btn-sm">Reset Flow</button>
+                </div>
+
+                <div style="font-size: 0.75rem; color: var(--text-muted); margin-bottom: 0.3rem;">Real-Time Browser Channel Traffic:</div>
+                <div id="ecom-sync-log" style="height: 120px; overflow-y: auto; background: #080b11; border: 1px solid var(--bg-glass-border); border-radius: var(--radius-sm); padding: 0.6rem;">
+                  <div style="color: var(--text-muted); font-size: 0.8rem;">[BroadcastChannel:ready] Listening on channel "ecom_store_ops"...</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         Technical Skills Matrix
+         ====================================================================== -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Core Competencies</span>
+          <h2 class="section-title">Technical Skills Matrix</h2>
+          <p class="section-subtitle">Programming languages, modern web APIs, AI architectures, and database engineering.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Programming Languages -->
+          <div class="glass-card skill-category-card reveal">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">💻</div>
+              <h3 class="skill-cat-title">Programming Languages</h3>
+            </div>
+            <div class="skill-pill-list">
+              <div class="skill-pill"><strong>Python</strong> (AI & Scripting)</div>
+              <div class="skill-pill"><strong>JavaScript</strong> (ES6+ Web APIs)</div>
+              <div class="skill-pill"><strong>SQL</strong> (Postgres / MySQL)</div>
+              <div class="skill-pill"><strong>Java</strong> (OOP & Core)</div>
+              <div class="skill-pill"><strong>C</strong> (Algorithms & Memory)</div>
+            </div>
+          </div>
+
+          <!-- Web Development & Browser APIs -->
+          <div class="glass-card skill-category-card reveal">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">🌐</div>
+              <h3 class="skill-cat-title">Web & Browser APIs</h3>
+            </div>
+            <div class="skill-pill-list">
+              <div class="skill-pill">HTML5 Semantic</div>
+              <div class="skill-pill">CSS3 & Keyframe Animations</div>
+              <div class="skill-pill">BroadcastChannel API</div>
+              <div class="skill-pill">LocalStorage API</div>
+              <div class="skill-pill">FileReader API</div>
+              <div class="skill-pill">DOM Manipulation</div>
+              <div class="skill-pill">Responsive Design</div>
+            </div>
+          </div>
+
+          <!-- AI, Machine Learning & Systems -->
+          <div class="glass-card skill-category-card reveal">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">🧠</div>
+              <h3 class="skill-cat-title">AI, ML & Systems</h3>
+            </div>
+            <div class="skill-pill-list">
+              <div class="skill-pill">Machine Learning Principles</div>
+              <div class="skill-pill">Convolutional Neural Nets (CNN)</div>
+              <div class="skill-pill">Predictive Modeling</div>
+              <div class="skill-pill">System Design</div>
+              <div class="skill-pill">Networking & Port Forwarding</div>
+              <div class="skill-pill">Virtual Machines</div>
+            </div>
+          </div>
+
+          <!-- Relational Databases & Integrity -->
+          <div class="glass-card skill-category-card reveal">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">🗄️</div>
+              <h3 class="skill-cat-title">Database & SQL</h3>
+            </div>
+            <div class="skill-pill-list">
+              <div class="skill-pill">ACID Properties</div>
+              <div class="skill-pill">Transaction Control (COMMIT/ROLLBACK)</div>
+              <div class="skill-pill">SQL Views & Abstraction</div>
+              <div class="skill-pill">Complex Relational Queries</div>
+              <div class="skill-pill">Data Integrity & Security</div>
+            </div>
+          </div>
+
+          <!-- Soft Skills & Languages -->
+          <div class="glass-card skill-category-card reveal" style="grid-column: 1 / -1;">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">🤝</div>
+              <h3 class="skill-cat-title">Soft Skills & Spoken Languages</h3>
+            </div>
+            <div class="skill-pill-list">
+              <div class="skill-pill" style="border-color: var(--accent-emerald);">✦ Communication</div>
+              <div class="skill-pill" style="border-color: var(--accent-emerald);">✦ Teamwork & Collaboration</div>
+              <div class="skill-pill" style="border-color: var(--accent-emerald);">✦ Adaptability</div>
+              <div class="skill-pill" style="border-color: var(--accent-emerald);">✦ Problem Solving</div>
+              <div class="skill-pill" style="border-color: var(--accent-emerald);">✦ Emotional Intelligence</div>
+              <div class="skill-pill" style="border-color: var(--accent-violet);">🗣 English (Fluent)</div>
+              <div class="skill-pill" style="border-color: var(--accent-violet);">🗣 Hindi (Fluent)</div>
+              <div class="skill-pill" style="border-color: var(--accent-violet);">🗣 Kannada (Fluent)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         Certifications & Achievements Section
+         ====================================================================== -->
+    <section id="certifications" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Credentials & Leadership</span>
+          <h2 class="section-title">Certifications & Achievements</h2>
+          <p class="section-subtitle">Verified Infosys Springboard certifications and national youth leadership honors.</p>
+        </div>
+
+        <!-- Certifications Grid -->
+        <div class="certs-grid">
+          <!-- Cert 1: AI -->
+          <div class="glass-card cert-card reveal">
+            <div>
+              <div class="cert-issuer">Infosys Springboard</div>
+              <h3 class="cert-name">Artificial Intelligence</h3>
+              <div class="cert-date">Issued: Jan 2025 • Verified</div>
+              <p style="font-size: 0.875rem; color: var(--text-secondary); margin-bottom: 1.25rem;">
+                Core machine learning principles, algorithm design, predictive models, neural network architectures, and generative systems groundwork.
+              </p>
+            </div>
+            <button onclick="window.openCertModal('cert-ai')" class="btn btn-secondary btn-sm" style="width: 100%;">
+              📜 View Certificate Details
+            </button>
+          </div>
+
+          <!-- Cert 2: SQL Case Study -->
+          <div class="glass-card cert-card reveal">
+            <div>
+              <div class="cert-issuer">Infosys Springboard</div>
+              <h3 class="cert-name">SQL Case Study - SQL Workshop</h3>
+              <div class="cert-date">Issued: Jan 2026 • Verified</div>
+              <p style="font-size: 0.875rem; color: var(--text-secondary); margin-bottom: 1.25rem;">
+                Workshop course focused on practical database management, writing complex queries, relational datasets analysis, and real-world case studies.
+              </p>
+            </div>
+            <button onclick="window.openCertModal('cert-sql-workshop')" class="btn btn-secondary btn-sm" style="width: 100%;">
+              📜 View Certificate Details
+            </button>
+          </div>
+
+          <!-- Cert 3: SQL Transactions -->
+          <div class="glass-card cert-card reveal">
+            <div>
+              <div class="cert-issuer">Infosys Springboard</div>
+              <h3 class="cert-name">SQL Transactions</h3>
+              <div class="cert-date">Issued: Jul 2025 • Verified</div>
+              <p style="font-size: 0.875rem; color: var(--text-secondary); margin-bottom: 1.25rem;">
+                Managing multi-step database transactions, ensuring data integrity via ACID properties, and state control with COMMIT and ROLLBACK commands.
+              </p>
+            </div>
+            <button onclick="window.openCertModal('cert-sql-transactions')" class="btn btn-secondary btn-sm" style="width: 100%;">
+              📜 View Certificate Details
+            </button>
+          </div>
+
+          <!-- Cert 4: SQL Views -->
+          <div class="glass-card cert-card reveal">
+            <div>
+              <div class="cert-issuer">Infosys Springboard</div>
+              <h3 class="cert-name">SQL Views</h3>
+              <div class="cert-date">Issued: Jul 2025 • Verified</div>
+              <p style="font-size: 0.875rem; color: var(--text-secondary); margin-bottom: 1.25rem;">
+                Creation and management of virtual tables, simplifying complex queries, enhancing security by restricting base table access, and data formatting.
+              </p>
+            </div>
+            <button onclick="window.openCertModal('cert-sql-views')" class="btn btn-secondary btn-sm" style="width: 100%;">
+              📜 View Certificate Details
+            </button>
+          </div>
+        </div>
+
+        <!-- National Achievement Spotlight Card -->
+        <div class="achievement-card reveal">
+          <div class="achievement-icon-box">
+            🇮🇳
+          </div>
+          <div>
+            <div style="display: flex; gap: 0.6rem; align-items: center; margin-bottom: 0.4rem; flex-wrap: wrap;">
+              <span class="badge badge-violet">National Youth Honors</span>
+              <span style="font-size: 0.8rem; color: var(--text-muted);">May 2025 • Shivamogga, Karnataka</span>
+            </div>
+            <h3 class="achievement-title">NSS National Integration Camp (NIC 2025)</h3>
+            <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6; margin-bottom: 0.75rem;">
+              Selected as a delegate for the vibrant 7-day national residential youth camp hosted by Kuvempu University under the central theme <strong>"Youth for Viksit Bharat"</strong> (Youth for Developed India), inaugurated by MLC Dhananjay Sarji.
+            </p>
+            <p style="color: var(--text-muted); font-size: 0.875rem;">
+              Collaborated with nearly 200 NSS volunteers across Karnataka, Kerala, Tamil Nadu, Andhra Pradesh, Puducherry, and Maharashtra in community service, personality development workshops, and collaborative socio-cultural showcases.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         Contact & Connect Section
+         ====================================================================== -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Get in Touch</span>
+          <h2 class="section-title">Let's Build Something Great Together</h2>
+          <p class="section-subtitle">Open for full-time opportunities, internships, AI projects, and freelance web collaborations.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Direct Details Card -->
+          <div class="glass-card contact-info-card reveal">
+            <h3>Direct Contact Channels</h3>
+            <p>Feel free to reach out directly via email, phone, or WhatsApp. I respond within 24 hours.</p>
+
+            <!-- Email Direct Item -->
+            <div class="contact-direct-item">
+              <div class="contact-icon">✉️</div>
+              <div style="flex: 1;">
+                <div style="font-size: 0.75rem; color: var(--text-muted);">Email Address</div>
+                <div style="font-weight: 600; font-size: 0.95rem; word-break: break-all;">ashish.rout457@gmail.com</div>
+              </div>
+              <button class="btn btn-secondary btn-sm" data-copy="ashish.rout457@gmail.com" data-copy-label="Email" title="Copy Email">
+                Copy
+              </button>
+            </div>
+
+            <!-- Phone / WhatsApp Direct Item -->
+            <div class="contact-direct-item">
+              <div class="contact-icon" style="color: var(--accent-emerald);">📱</div>
+              <div style="flex: 1;">
+                <div style="font-size: 0.75rem; color: var(--text-muted);">Phone &amp; WhatsApp</div>
+                <div style="font-weight: 600; font-size: 0.95rem;">+91 80889 82434</div>
+              </div>
+              <a href="https://wa.me/918088982434?text=Hi%20Ashish,%20I%20viewed%20your%20portfolio%20and%20would%20like%20to%20connect!" target="_blank" class="btn btn-emerald btn-sm">
+                Chat
+              </a>
+            </div>
+
+            <!-- GitHub Direct Item -->
+            <div class="contact-direct-item">
+              <div class="contact-icon" style="color: var(--accent-cyan);">💻</div>
+              <div style="flex: 1;">
+                <div style="font-size: 0.75rem; color: var(--text-muted);">GitHub Profile</div>
+                <div style="font-weight: 600; font-size: 0.95rem; word-break: break-all;">github.com/ashishrout457</div>
+              </div>
+              <a href="https://github.com/ashishrout457" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" title="Open GitHub Profile">
+                Repositories
+              </a>
+            </div>
+
+            <!-- LinkedIn Direct Item -->
+            <div class="contact-direct-item">
+              <div class="contact-icon" style="color: #38bdf8;">💼</div>
+              <div style="flex: 1;">
+                <div style="font-size: 0.75rem; color: var(--text-muted);">LinkedIn Profile</div>
+                <div style="font-weight: 600; font-size: 0.95rem; word-break: break-all;">linkedin.com/in/ashish-rout-31b6b3298</div>
+              </div>
+              <a href="https://www.linkedin.com/in/ashish-rout-31b6b3298" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" title="Open LinkedIn Profile">
+                Connect
+              </a>
+            </div>
+
+            <!-- Location Direct Item -->
+            <div class="contact-direct-item">
+              <div class="contact-icon" style="color: var(--accent-amber);">📍</div>
+              <div>
+                <div style="font-size: 0.75rem; color: var(--text-muted);">Current Location</div>
+                <div style="font-weight: 600; font-size: 0.95rem;">Bangalore, Karnataka, India</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Message Form Card -->
+          <div class="glass-card reveal">
+            <h3 style="margin-bottom: 0.4rem;">Send a Direct Message</h3>
+            <p style="font-size: 0.875rem; margin-bottom: 1.25rem;">Fill out this form to send a formatted inquiry directly to Ashish:</p>
+
+            <form id="portfolio-contact-form" class="contact-form">
+              <div class="form-group">
+                <label for="form-name" class="form-label">Your Name *</label>
+                <input type="text" id="form-name" class="form-input" placeholder="e.g. Alex Johnson" required>
+              </div>
+
+              <div class="form-group">
+                <label for="form-email" class="form-label">Your Email Address *</label>
+                <input type="email" id="form-email" class="form-input" placeholder="alex@company.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="form-subject" class="form-label">Subject / Purpose</label>
+                <input type="text" id="form-subject" class="form-input" placeholder="Job Opportunity / Project Collaboration">
+              </div>
+
+              <div class="form-group">
+                <label for="form-message" class="form-label">Message *</label>
+                <textarea id="form-message" class="form-textarea" placeholder="Describe the role or project you'd like to discuss..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                <span>Send Message</span>
+                <span>✉️</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       Footer
+       ======================================================================== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div style="display: flex; align-items: center; gap: 0.6rem; font-weight: 700; color: var(--text-primary);">
+        <div class="logo-symbol" style="width: 32px; height: 32px; font-size: 0.95rem;">AR</div>
+        <span style="font-size: 1.15rem;">Ashish<span class="gradient-text">.dev</span></span>
+      </div>
+
+      <div style="display: inline-flex; align-items: center; gap: 0.5rem; background: var(--bg-surface); padding: 0.35rem 0.9rem; border-radius: var(--radius-full); border: 1px solid var(--bg-glass-border); font-size: 0.825rem; color: var(--text-secondary);">
+        <span class="pulse-dot"></span>
+        <span>Open to AI/ML &amp; Full-Stack Opportunities • Bangalore, India</span>
+      </div>
+
+      <!-- Footer Social Icons Bar -->
+      <div style="display: flex; gap: 0.75rem; align-items: center; margin: 0.5rem 0;">
+        <a href="https://github.com/ashishrout457" target="_blank" rel="noopener noreferrer" class="btn-icon" title="GitHub Profile (ashishrout457)" aria-label="GitHub">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+        </a>
+
+        <a href="https://www.linkedin.com/in/ashish-rout-31b6b3298" target="_blank" rel="noopener noreferrer" class="btn-icon" title="LinkedIn Profile" aria-label="LinkedIn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+        </a>
+
+        <a href="mailto:ashish.rout457@gmail.com" class="btn-icon" title="Email Ashish Rout" aria-label="Email">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+        </a>
+
+        <a href="https://wa.me/918088982434" target="_blank" rel="noopener noreferrer" class="btn-icon" title="WhatsApp Chat" aria-label="WhatsApp" style="color: var(--accent-emerald);">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2zm0 18.15c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.19 8.19 0 01-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 012.41 5.83c.01 4.54-3.69 8.23-8.22 8.23zm4.52-6.16c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.12.17 1.77 2.71 4.3 3.8.6.26 1.07.41 1.44.53.61.19 1.16.17 1.6.1.49-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.11-.23-.19-.48-.31z"/></svg>
+        </a>
+      </div>
+
+      <!-- Quick Nav Links -->
+      <div style="display: flex; gap: 1.25rem; flex-wrap: wrap; justify-content: center; font-size: 0.875rem;">
+        <a href="#about" style="color: var(--text-secondary);">About</a>
+        <a href="#experience" style="color: var(--text-secondary);">Experience</a>
+        <a href="#projects" style="color: var(--text-secondary);">Projects</a>
+        <a href="#playground" style="color: var(--accent-cyan); font-weight: 600;">⚡ Live Simulators</a>
+        <a href="#skills" style="color: var(--text-secondary);">Skills</a>
+        <a href="#certifications" style="color: var(--text-secondary);">Certifications</a>
+        <a href="#contact" style="color: var(--text-secondary);">Contact</a>
+        <a href="#hero" style="color: var(--accent-cyan);">↑ Back to Top</a>
+      </div>
+
+      <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 0.5rem;">
+        © 2026 Ashish Rout. Built with Vanilla HTML5, CSS3, and ES6+ JavaScript. Ultra-low latency &amp; mobile responsive.
+      </p>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       Developer CLI Terminal Drawer & Modal (Ctrl+K)
+       ======================================================================== -->
+  <div id="terminal-modal" class="terminal-backdrop" aria-hidden="true">
+    <div class="terminal-window" role="dialog" aria-label="Interactive Developer CLI">
+      <div class="terminal-header">
+        <div class="terminal-controls">
+          <div class="term-btn red" id="terminal-close-btn" title="Close CLI"></div>
+          <div class="term-btn yellow"></div>
+          <div class="term-btn green"></div>
+        </div>
+        <div class="terminal-title">
+          <div class="terminal-header-icon">&gt;_</div>
+          <span>ashish@portfolio:~ (Interactive CLI)</span>
+          <span class="pulse-dot" style="margin-left: 0.35rem;" title="Live Active Session"></span>
+        </div>
+        <div class="term-hint" style="font-size: 0.75rem; color: var(--text-muted); font-family: var(--font-mono);">
+          Press ESC or click red dot to close
+        </div>
+      </div>
+
+      <div class="terminal-body" id="terminal-output-container">
+        <div class="terminal-line" style="color: var(--accent-cyan);">
+          ✨ Welcome to Ashish Rout's Interactive Developer Terminal!
+        </div>
+        <div class="terminal-line" style="color: var(--text-muted); font-size: 0.85rem;">
+          Type <strong style="color: #fff;">help</strong> to see all available commands or <strong style="color: #fff;">skills</strong>, <strong style="color: #fff;">projects</strong>, <strong style="color: #fff;">experience</strong>, <strong style="color: #fff;">contact</strong>.
+        </div>
+      </div>
+
+      <!-- Quick Command Action Chips -->
+      <div class="terminal-quick-chips">
+        <span class="quick-chip-label">Quick:</span>
+        <button class="term-chip" data-cmd="skills">skills</button>
+        <button class="term-chip" data-cmd="projects">projects</button>
+        <button class="term-chip" data-cmd="experience">experience</button>
+        <button class="term-chip" data-cmd="certs">certs</button>
+        <button class="term-chip" data-cmd="contact">contact</button>
+        <button class="term-chip" data-cmd="theme">theme</button>
+        <button class="term-chip" data-cmd="clear">clear</button>
+      </div>
+
+      <div style="padding: 0.75rem 1rem; background: #080b11; border-top: 1px solid rgba(255, 255, 255, 0.08);">
+        <div class="terminal-input-wrapper">
+          <span class="terminal-prompt">ashish:~$</span>
+          <input type="text" id="terminal-cmd-input" class="terminal-input" placeholder="type a command (e.g. 'help', 'skills', 'theme')..." autocomplete="off" spellcheck="false">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Terminal Launcher (Compact Glowing Circular Logo) -->
+  <button class="terminal-fab-btn trigger-terminal" aria-label="Open Interactive CLI Terminal (Ctrl+K)" id="floating-terminal-btn" title="Open CLI Terminal (Ctrl+K)">
+    <span class="terminal-fab-glow"></span>
+    <span class="terminal-fab-glyph">&gt;_</span>
+  </button>
+
+  <!-- Reusable Details Modal (Certificates & Project Architecture) -->
+  <div id="details-modal" class="modal-backdrop" aria-hidden="true">
+    <div class="modal-container" role="dialog">
+      <button id="modal-close-btn" class="modal-close" aria-label="Close dialog">✕</button>
+      <div id="modal-dynamic-content">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Unified Application Script (Self-Contained) -->
+  <script src="script.js"></script>
+</body>
+</html>

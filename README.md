@@ -123,8 +123,6 @@ AI & ML Engineer • Full-Stack Web Developer • Bangalore, Karnataka, India
 - **GitHub:** [@ashishrout457](https://github.com/ashishrout457)
 - **LinkedIn:** [linkedin.com/in/ashish-rout-31b6b3298](https://www.linkedin.com/in/ashish-rout-31b6b3298)
 - **Email:** [ashish.rout457@gmail.com](mailto:ashish.rout457@gmail.com)
-- **Phone / WhatsApp:** [+91 80889 82434](https://wa.me/918088982434)
-
 ---
 
 ## 📄 License
